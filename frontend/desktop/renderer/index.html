@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GIS Organizer</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>GIS Organizer</h1>
+    </header>
+    
+    <div class="main-content">
+      <div class="sidebar">
+        <div class="actions">
+          <button id="select-files-btn">Select Files</button>
+          <button id="select-directory-btn">Select Directory</button>
+        </div>
+        <div class="file-tree">
+          <h3>Organized Files</h3>
+          <div id="file-list"></div>
+        </div>
+      </div>
+      
+      <div class="content-area">
+        <div class="file-details-panel">
+          <h3>File Details</h3>
+          <div id="file-details"></div>
+        </div>
+        <div class="preview-panel">
+          <h3>Preview</h3>
+          <div id="file-preview"></div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <p>GIS Organizer v0.1.0</p>
+    </footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

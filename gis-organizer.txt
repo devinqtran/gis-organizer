@@ -1,0 +1,25 @@
+gis-organizer/
+├── backend/
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── file_scanner.py
+│   │   ├── classifier.py
+│   │   ├── organizer.py
+│   │   └── metadata_manager.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── db_models.py
+│   └── utils/
+│       ├── __init__.py
+│       └── gis_utils.py
+├── frontend/
+│   ├── web/  # React app structure
+│   └── desktop/  # Electron app structure
+├── tests/
+│   ├── __init__.py
+│   └── test_file_scanner.py
+├── config.py
+└── main.py
